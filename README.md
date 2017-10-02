@@ -1,0 +1,1 @@
+Losywy tekst
