@@ -1,1 +1,1 @@
-Losywy tekst
+Losowy tekst
