@@ -1,3 +1,62 @@
 body {
-   background-color:green;
+    font-family:arial, tahoma, verdana;
+    font-size: 12pt;
+    line-height: 1.5em;
+    background-color:green;
+
+}
+
+.h1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.pochylony {
+    font-style: italic;
+}
+
+.pogrubiony {
+    font-weight: bold;
+}
+
+.li {
+    font: italic bold 16px/24px Gabriola, serif;
+}
+
+.tekst1 {
+   color: #00FF96   
+}
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F,
+.tekst2{
+    color: #00FF11
+}
+
+img {
+ border: 5px solid black;
+}
+.header img {
+border:10px solid orange;
+}
+
+div#header{
+    border-color: black;
+}
+#header img{
+    border-color:blue;
+}
+
+#header{
+    padding-top: 50px;
+    border-top-width:40px blue;
+}
+
+.header{
+    padding: 20px 40px 20px 300px;
+    border:10px solid red;
+    margin: 15px;
 }
