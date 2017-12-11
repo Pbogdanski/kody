@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-12-06T07:20:34+01:00
+
+====== CSV ======
+Created środa 06 grudzień 2017
+
+function jezeli5(plec){
+  if(plec === 'k' || plec === 'K') {
+	console.log('kobieta');
+  } else if(plec === 'm' || plec === 'M') {
+	console.log('mężczyzna');
+  } else {
+	console.log('coś');
+  }
