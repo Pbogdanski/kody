@@ -9,3 +9,4 @@ Confirm-tak/nie
 Boolean - true x<0/false x=0
 var (tutaj nazwa zmiennej)wiek=30;
 //stringi=napisy
+API - aplication programming interface 
