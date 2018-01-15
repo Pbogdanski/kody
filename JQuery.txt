@@ -7,3 +7,9 @@ Created środa 03 styczeń 2018
 
 $=object (BAAARDZO SPECJALNY)
 . przeprowadzają akcje (jak w css)
+$"p" - wszystkie akapity
+$("#login") - wybranie elementu z indentyfikatorem
+
+$("#login").on("click",() => {
+	$("login form").toggle();	
+})
