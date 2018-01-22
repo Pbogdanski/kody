@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-22T09:23:09+01:00
+
+====== Silniki i Systemy baz danych ======
+Created poniedziałek 22 styczeń 2018
+
+[[MySQL]]
+[[MariaDB]]
+[[PostgreSQL]]
+Oracle
+SQlite
