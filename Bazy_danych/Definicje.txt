@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-29T09:20:18+01:00
+
+====== Definicje ======
+Created poniedziałek 29 styczeń 2018
+
+Primary Key - (klucz główny) tworzony automatycznie przez bazę danych
+klucz obcy - wartość pola brana z innej tabeli
+Pierwszym i podstawowym typem relacji w bazach danych jest relacja jeden do wielu. 
