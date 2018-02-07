@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Formularze</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <form name="formularz" id="formularz" method="GET" action="rejestracja.php">
+<table class="table">
+  <tr>
+    <td>
+      <label for="imie">Imie</label>
+    </td>
+    <td>
+    <input type="text" name="imię" value="" placeholder="imię">
+     </td>
+   </tr>
+   <tr>
+    <td>
+    <label for="nazwisko">Nazwisko</label>
+   </td>
+    <td>
+      <input type="text" name="Nazwisko" value="" placeholder="Nazwisko">
+     </td>
+   </tr>
+   <tr>
+     <td>
+       <input type="submit" name="zapisz" value="zapisz">
+     </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <input type="password" name="haslo" value="">
+      <input type="reset" name="reset" value="">
+     </td>
+  </tr>
+  </table>
+
+  <label for="plec"></label>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+  <input type="radio" name="gender" value="attack helicopter"> Attack helicopter<br>
+  <br>
+
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+
+    <select name="cars" multiple selected="3">
+     <option value="1" selected>Volvo</option>
+     <option value="2">Saab</option>
+     <option value="3">Fiat</option>
+     <option value="4">Audi</option>
+   </select>
+   <textarea name="komentarz" rows="4" cols="50"></textarea>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>

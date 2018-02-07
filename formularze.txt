@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-07T07:20:24+01:00
+
+====== Formularze ======
+Created środa 07 luty 2018
+
+<form>
+ input (forma wpisywanych danych)
+submit - form do zapisywania
+placeholder (podpowiedź dla użytkownika )
+żeby było kilka opcji i możliwość zaznacznenia tylko jednej input type radio musi mieć to samo value
+żeby można było zaznaczyć dużo opcji na raz musi być każdy o innej nazwie
+select - rozwijana lista 
+text area - duże pole do wstawiania np.komentarzy
+typ password do haseł
+reset- jak submit tylko że inny type xD (tak samo z password
+[[Method: GET-infomacje]] będą w URL-u bez kodowania i hasło będzie widoczne
+POST - bez danych w URL, 
+action="." - w tym samym pliku na serwerze 
+="./rejestracja.php" - na inny plik w innym folderze

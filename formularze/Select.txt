@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-07T08:07:38+01:00
+
+====== Select ======
+Created środa 07 luty 2018
+
+name="x"
+i dodajemy  <option value="to będzie wysyłane do serwera">Nazwa dla użytkownika</option>
