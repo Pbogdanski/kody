@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-28T08:27:36+01:00
+
+====== Spacing ======
+Created środa 28 luty 2018
+
+CSS 3 wprowadza nową jednostkę o nazwie REM
+bootstrap 4 oparty jest w dużej mierze na tej jednostce
+jest to jednostka względna definiowana w root 
+reszrta fontów jest definiowana względem niego
+kątęt

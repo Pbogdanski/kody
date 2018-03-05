@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-28T07:48:53+01:00
+
+====== wielkość ekranów ======
+Created środa 28 luty 2018
+
+Urządzenia xs - <576px
+s - => 576px
+m 992
