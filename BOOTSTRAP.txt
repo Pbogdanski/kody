@@ -4,4 +4,8 @@ Creation-Date: 2018-02-26T09:24:11+01:00
 
 ====== BOOTSTRAP ======
 Created poniedziałek 26 luty 2018
-Rem to jednostka względna tylko względem rodzica danego elementu
+Rem to jednostka względna tylko względem rodzica danego elementu przy czym on działa na nagłówek
+a em z elementu body czy tam na odwrót i wogule
+podświetlanie tekstu <mark>
+podkreślanie <u>
+przekreślanie <del> / <s>
