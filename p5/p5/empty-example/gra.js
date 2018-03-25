@@ -1,5 +1,6 @@
-function setup() {
+  function setup() {
   createCanvas(10000,10000);
+      
 }
 
   function mouseClicked() {
