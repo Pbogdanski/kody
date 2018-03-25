@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-19T09:03:56+01:00
+
+====== Grafika ======
+Created poniedziałek 19 marzec 2018
+
+kolor 1 pixela - 4 baity
+0x - liczba szestnastkowa czyli czytana parami np. FF - jedna wartość FF - druga
+biały to maksimum
+W CMYKU k ustala czarne - lepiej niż wszystkie na raz
+C+M+Y+K = CMYK	
+C+M = NIEBIESKI
+M+Y= CZERWONY
+Y+C= ZIELONY
+
+H- hue - barwa/odcień
+S- saturation- nasycenie
+B - brightness jasność
+
+Formaty bezstratne - bitmapa (bmp);gif;png;psd;xcf
+
+Formaty stratne - 
