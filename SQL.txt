@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-05-09T07:35:38+02:00
+
+====== SQL ======
+Created środa 09 maja 2018
+
+Prajmary ki intidżer AUTOINKREMENT
+W POLU INTIDŻER NIE MOŻNA ZAPISAĆ WARTOŚCI TYPU 3 I PÓŁ
+KONTROL SHIFT T

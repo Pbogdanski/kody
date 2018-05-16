@@ -1,0 +1,38 @@
+DROP TABLE IF EXISTS tbUczniowie;
+CREATE TABLE tbUczniowie (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	imie TEXT,
+	nazwisko TEXT,
+	plec INTEGER,
+	idKlasa INTEGER NOT NULL REFERENCES tbklasy(id),
+	egzHum NUMERIC NOT NULL DEFAULT 0,
+	egzMat NUMERIC NOT NULL DEFAULT 0,
+	egzJez NUMERIC NOT NULL DEFAULT 0
+);
+
+DROP TABLE IF EXISTS tbKlasy;
+CREATE TABLE tbKlasy (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+	klasa TEXT,
+	rokNaboru INTEGER,
+	rokMatury INTEGER
+);
+
+DROP TABLE IF EXISTS tbPrzedmioty;
+CREATE TABLE tbPrzedmioty,
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+przedmiot – TEXT,
+nazwiskoNaucz – TEXT,
+imieNaucz – TEXT,
+plecNaucz – INTEGER,
+);
+
+DROP TABLE IF EXISTS tbOceny;
+CREATE TABLE tbOceny,
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+ocena – TEXT,
+datad – DATE,
+idUczen – TEXT,
+FOREIGN KEY (idUczen) REFERENCES tbUczniowie(id),
+FOREIGN KEY (idPrzedmiot) REFERENCES tbPrzedmioty(id),
+);
