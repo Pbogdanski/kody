@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS tbFilm;
 CREATE TABLE tbFilm
 (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY,
     name TEXT,
     genre TEXT,
-    year DATE,
+    year INTEGER,
     imdb_rating NUMERIC,
 );
